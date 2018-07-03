@@ -2,8 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "storageAccounts_spastore_name": {
-            "defaultValue": "spastore",
+        "storageAccountName": {
             "type": "string"
         }
     },
@@ -16,7 +15,7 @@
                 "tier": "Standard"
             },
             "kind": "StorageV2",
-            "name": "[parameters('storageAccounts_spastore_name')]",
+            "name": "[parameters('storageAccountName')]",
             "apiVersion": "2018-02-01",
             "location": "westeurope",
             "dependsOn": []

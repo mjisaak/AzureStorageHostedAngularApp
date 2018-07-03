@@ -1,0 +1,8 @@
+{
+    "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+    "itemDisplayName": "Create a general purpose V2 Storage Account",
+    "description": "This template creates a general purpose V2 Storage Account",
+    "summary": "Create a general purpose V2 Storage Account",
+    "githubUsername": "mjisaak",
+    "dateUpdated": "2018-07-03"
+  }
