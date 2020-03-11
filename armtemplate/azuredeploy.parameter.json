@@ -4,6 +4,9 @@
     "parameters": {
       "storageAccountName": {
         "value": "mystorageaccountname"
+      },
+      "location": {
+        "value": "westeurope"
       }
     }
   }
