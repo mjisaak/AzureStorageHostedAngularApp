@@ -7,7 +7,7 @@
         },
         "location": {
             "type": "string",
-            "defaultValue": "westeurope"
+            "defaultValue": "[resourceGroup().location]"
         }
     },
     "variables": {},
